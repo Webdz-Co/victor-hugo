@@ -11,13 +11,14 @@ This project is released under the [MIT license](LICENSE). Please make sure you 
 
 ## Usage
 
-Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. If you need to install hugo on OSX, run:
+Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. On Cloud9 just use the Node.js image, then run:
 
 ```bash
-brew install hugo
+wget https://github.com/spf13/hugo/releases/download/v0.18.1/hugo_0.18.1-64bit.deb
+sudo dpkg -i hugo_0.18.1-64bit.deb
 ```
 
-If you don't use OSX or don't use homebrew, follow the instructions for installation here instead:
+Substitute for the latest Hugo release or follow the instructions for installation here instead:
 
 http://gohugo.io/overview/installing/
 
